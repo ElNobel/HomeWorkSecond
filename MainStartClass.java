@@ -1,6 +1,8 @@
 
 public class MainStartClass {
     public static void main(String[] args) {
-        CharRepeat.outRepeat("определяет, что в массиве строк есть одинаковые элементы");
+        String[] test = {"ad","ad","cd","dd"};
+        System.out.println(CharRepeat.repeat(test));
+        System.out.println(CharRepeat.testRepeatMethod(test, 1));
     }
 }
